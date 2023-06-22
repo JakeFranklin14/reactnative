@@ -74,16 +74,17 @@ const APIdemo = () => {
                     <>
                      <Text>{latlonText}</Text>
                      <Text>{latlon}</Text>
-                     <Text>{JSON.stringify(data)}}</Text>
+                     <Text>{JSON.stringify(data)}</Text>
                      <Text style={{backgroundColor:'yellow'}}>
                         {JSON.stringify(forecast[0])}
                     </Text>
                     </>:
                     "............."}
-                     
-                    </>
-
+                                         
+                    </> 
                 }
+
+
             </View>
             
         </View>
